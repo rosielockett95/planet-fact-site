@@ -1,0 +1,49 @@
+body {
+  background-color: #070724;
+}
+
+/* Planets Header Styling */
+
+header {
+  border-bottom: 2px solid rgba(151, 151, 151, 0.2);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.planets-header {
+  font-size: 28px;
+  line-height: 130%;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  text-transform: uppercase;
+}
+
+.planet-names {
+  display: flex;
+  gap: 2rem;
+  font-family: "League Spartan", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 225%;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* Planet information page */
+
+.planet-info-container {
+  color: white;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
